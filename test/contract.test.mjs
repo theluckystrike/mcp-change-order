@@ -1,3 +1,6 @@
+// Mirror note: RESULT.md is the monorepo's build log for this server and is not
+// published to a mirror, so it is dropped from the required-file list below. Every
+// other file in that list is still checked.
 // Mirror note: tests that need a signed Pro key are skipped here. The signing key
 // lives only in the monorepo (keys/license-private.pem); run them there.
 // Mirror note: tests that run a script from the monorepo's scripts/ directory are
@@ -298,7 +301,7 @@ test("src, tests and docs carry no em dash and no emoji", () => {
 
 test("the required files are all present", () => {
   for (const f of [
-    "package.json", "tsconfig.json", "README.md", "LICENSE", "SPEC.md", "RESULT.md",
+    "package.json", "tsconfig.json", "README.md", "LICENSE", "SPEC.md",
     "server.json", "server.mcpb.json", "server.variant.json", "server.scope-change.json",
     "remotes.json", "smithery.yaml", "glama.json", "llms-install.md", "Dockerfile",
     "src/index.ts", "src/lib.ts", "src/order.ts", "src/store.ts", "src/version.ts",
