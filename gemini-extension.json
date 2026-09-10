@@ -1,0 +1,22 @@
+{
+  "name": "mcp-change-order",
+  "version": "0.21.0",
+  "description": "MCP server for change orders and contract variations. Change orders against a quote or a work order, with the running contract value derived from what the client approved.",
+  "settings": [
+    {
+      "name": "mcp.zovo.one token",
+      "description": "A free anonymous token from https://mcp.zovo.one/mcp/token, or your Pro key. One token is one data space, and it is refreshed for another 30 days on every write.",
+      "envVar": "ZOVO_MCP_TOKEN",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "change-order": {
+      "httpUrl": "https://mcp.zovo.one/mcp/change-order",
+      "headers": {
+        "Authorization": "Bearer ${ZOVO_MCP_TOKEN}"
+      },
+      "description": "Change orders against a quote or a work order, with the running contract value derived from what the client approved."
+    }
+  }
+}
