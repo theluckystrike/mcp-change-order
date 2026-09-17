@@ -1,6 +1,6 @@
 {
   "name": "mcp-change-order",
-  "version": "0.21.0",
+  "version": "0.22.0",
   "description": "MCP server for change orders and contract variations. Change orders against a quote or a work order, with the running contract value derived from what the client approved.",
   "settings": [
     {

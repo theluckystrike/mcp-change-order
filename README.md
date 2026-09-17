@@ -43,6 +43,7 @@ Read-only mirror of [mcp-servers/servers/change-order](https://github.com/theluc
 
 <!-- mirror-seo:end -->
 
+**In the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.theluckystrike%2Fchange-order/versions/latest)** (`io.github.theluckystrike/change-order`).
 Change orders against a quote or a work order, kept the way a variation is kept on site:
 what was added, what was taken out and what changed, each with a reason and a date, sent to
 the client, and answered. The running contract value is the original plus the deltas the
