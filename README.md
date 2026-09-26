@@ -63,10 +63,10 @@ refused by name.
 ## Install
 
 
-**One-click (.mcpb):** download `change-order.mcpb` from the latest release and double-click it in Claude Desktop:
+One-click (.mcpb): download `change-order.mcpb` from the latest release and double-click it in Claude Desktop:
 https://github.com/theluckystrike/mcp-servers/releases/latest
 
-**Hosted, no install:** point a URL-based client at `https://mcp.zovo.one/mcp/change-order`. `GET https://mcp.zovo.one/mcp/connect` mints a token and prints a ready URL.
+Hosted, no install: point a URL-based client at `https://mcp.zovo.one/mcp/change-order`. `GET https://mcp.zovo.one/mcp/connect` mints a token and prints a ready URL.
 
 npm publish for `@theluckystrike/mcp-change-order` is pending, so the `npx` line below returns 404 today.
 
@@ -172,3 +172,9 @@ offline. This server reads one file it does not own, the shared business profile
 writes into no store but its own.
 
 Built by theluckystrike. https://github.com/theluckystrike
+
+## Use these docs as an MCP server
+
+Any MCP client (Claude, Cursor, Windsurf, VS Code) can read this repository's documentation directly via GitMCP — no install:
+
+- Docs MCP URL: https://gitmcp.io/theluckystrike/mcp-change-order
